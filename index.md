@@ -1,6 +1,7 @@
-
-# Tutorial for new CSE15L students
-
+---
+layout: post
+title: Tutorial for new CSE15L students
+---
 
 ## 1.Install VScode
 Go to the Visual Studio website [https://code.visualstudio.com/](https://code.visualstudio.com/). Download and install the correct version according to your operating system. 

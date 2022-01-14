@@ -1,13 +1,17 @@
 # Tutorial for new CSE15L students
 ---
-## 1.Install VScode
+## 1. Install VScode
 Go to the Visual Studio website [https://code.visualstudio.com/](https://code.visualstudio.com/). Download and install the correct version according to your operating system. 
+
 ![](Vsc_website.png)
+
 After installing VScode, you should see a window like this:
+
 ![](Vsc_window.png)
+
 If you see the window, congratulations! You are ready to begin the programming trial.
 
-## 2.Connect to the remote server
+## 2. Connect to the remote server
 Our course CSE15L uses course-specific accounts. We can use them to get on to a remote computer to do work online.
 
 If you are on Windows, install OpenSSH. Here is the tutorial:
@@ -36,7 +40,7 @@ The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
-For this course, type `yes` and press enter, then give your password. You should see this message:
+For this course, type `yes`, press enter, and then type in your password. You should see this message:
 
 ![](Login.png)
 
@@ -44,9 +48,9 @@ Now your terminal is connected to a computer in the CSE basement, and any comman
 
 PS: If you meet problems that cannot be resolved by reading this tutorial, google it.
 
-## 3.Try some command remotely
+## 3. Try some command remotely
 
-Now you are connected to the server, try to run some commands on it.
+You are connected to the server successfully, try to run some commands on it.
 
 Let's run the following commands for example:
 
@@ -71,11 +75,11 @@ To log out of the remote server, use:
 
 
 
-## 4.Move files to server with `scp`
+## 4. Move files to server with `scp`
 
 So far we can do some work on our remote server. Next, we need to learn to copy files between the client and the server.
 
-We will use the command line `scp`, which we always run from the client. To show how to use `scp`, create a file on your computer called `WhereAmI.java` and put the following contents into it:
+We will use the command line `scp`, which we always run from the ***client***. To show how to use `scp`, create a file on your computer called `WhereAmI.java` and put the following contents into it:
 
 
 ```
@@ -105,7 +109,7 @@ This is how it looks when I search for and  run `WhereAmI.java` on my server:
 
 ![](Scp.png)
 
-## 5.Set an SSH key
+## 5. Set an SSH key
 
 Every time you use the command `ssh` or `scp`, you need to enter the password. It could be quite inconvenient and frustrating when you use these commands frequently.
 
@@ -153,12 +157,11 @@ $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 # You use your username and the path you saw in the command above
 ```
 
-This process should look like:
+This process on my terminal looks like:
 ![](SshKey.png)
-
 As you can see now, running `ssh` no longer requires the password.
 
-## 6.Optimize remote running
+## 6. Optimize remote running
 
 Some **tips** about using the command lines：
 
@@ -176,5 +179,5 @@ $ ssh cs15lwi22avl@ieng6.ucsd.edu "ls;cat WhereAmI.java";pwd
 This command line runs as below:
 ![](Optimize2.png)
 
-* To reuse a command line that you have typed in before, use the up arrow to access them.
+* To reuse a command line that you have typed in before, use the up arrow to access them. You don't need to type in a long command line over and over.
 

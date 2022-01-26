@@ -170,6 +170,7 @@ Some **tips** about using the command lines：
 $ ssh cs15lwi22avl@ieng6.ucsd.edu "cat WhereAmI.java"
 ```
 **Keystrokes**: 51 
+
 This command line runs as below:
 ![](Optimize.png)
 
@@ -178,6 +179,7 @@ This command line runs as below:
 $ ssh cs15lwi22avl@ieng6.ucsd.edu "ls;cat WhereAmI.java";pwd
 ```
 **Keystrokes**: 58
+
 This command line runs as below:
 ![](Optimize2.png)
 

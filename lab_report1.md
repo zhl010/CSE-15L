@@ -183,4 +183,4 @@ This command line runs as below:
 
 * To reuse a command line that you have typed in before, use the up arrow to access them. You don't need to type in a long command line over and over.
 
-[Return to home page](index.md)
+[**Return to home page**](index.md)

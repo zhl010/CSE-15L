@@ -27,3 +27,5 @@
 ![](Symptom#3.png)
 * Relation between the bug, the symptom, and the failure inducing input
 
+
+[**Return to home page**](index.md)

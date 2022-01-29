@@ -3,7 +3,7 @@
 ## Change#1
 
 * Code difference
-![](https://github.com/zhl010/CSE-15L/blob/5991486b493784a5153e27cc105bb487d0d19d8f/Commit%231.png)
+![](Commit#1.png)
 
 * Failure inducing test file
 

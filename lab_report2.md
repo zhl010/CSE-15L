@@ -2,7 +2,9 @@
 ---
 ## Change#1
 
-* ![](Commit#1.png)
+<img src="Commit#1.png" alt="Commit#1" width="200"/>
+
+* ![Screenshot](Commit#1.png)
 
 * [test-file2.md](test-file2.md)
 

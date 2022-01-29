@@ -2,33 +2,31 @@
 ---
 ## Change#1
 
-<img src="Commit#1.png" alt="Commit#1" width="200"/>
-
-* ![Screenshot](Commit#1.png)
+* ![Screenshot](https://github.com/zhl010/CSE-15L/blob/5991486b493784a5153e27cc105bb487d0d19d8f/Commit%231.png)
 
 * [test-file2.md](test-file2.md)
 
-* ![](Symptom#1.png)
+* ![](https://github.com/zhl010/CSE-15L/blob/5991486b493784a5153e27cc105bb487d0d19d8f/Symptom%231.png)
 
 * Relation between the bug, the symptom, and the failure inducing input
 
 ## Change#2
 
-* ![](Commit#2.png)
+* ![](https://github.com/zhl010/CSE-15L/blob/5991486b493784a5153e27cc105bb487d0d19d8f/Commit%232.png)
  
 * [test-file3.md](test-file3.md)
 
-* ![](Symptom#2.png)
+* ![](https://github.com/zhl010/CSE-15L/blob/5991486b493784a5153e27cc105bb487d0d19d8f/Symptom%232.png)
 
 * Relation between the bug, the symptom, and the failure inducing input
 
 ## Change#3
 
-* ![](Commit#3.png)
+* ![](https://github.com/zhl010/CSE-15L/blob/5991486b493784a5153e27cc105bb487d0d19d8f/Commit%233.png)
 
 * [test-file4.md](test-file4.md)
 
-* ![](Symptom#3.png)
+* ![](https://github.com/zhl010/CSE-15L/blob/5991486b493784a5153e27cc105bb487d0d19d8f/Symptom%233.png)
 
 * Relation between the bug, the symptom, and the failure inducing input
 

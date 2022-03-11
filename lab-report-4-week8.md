@@ -110,7 +110,7 @@ java.lang.AssertionError: expected:<[`google.com, google.com, ucsd.edu]> but was
         at org.junit.Assert.assertEquals(Assert.java:146)
         at MarkdownParseTest.testGetLinkS1(MarkdownParseTest.java:62)
 2) testGetLinkS2(MarkdownParseTest)
-java.lang.AssertionError: expected:<[a.com, a.com(()), example.com]> but was:<[]>
+java.lang.AssertionError: expected:<[a.com, a.com(()), example.com]> but was:<[a.com, a.com((]>
         at org.junit.Assert.fail(Assert.java:89)
         at org.junit.Assert.failNotEquals(Assert.java:835)
         at org.junit.Assert.assertEquals(Assert.java:120)
@@ -137,7 +137,9 @@ Cannot be done by small code change.
 
 ### Snippet 2
 
-Did not figure out how this error came out
+The code failed to find matched parenthesis and just recognized the first close parenthesis (or bracket) as the boundary of the link, which is wrong. To fix this problem, we can write a helper method to find matched parenthesis using a stack data structure. I have written this method once and it took about 40 lines.
+
+Cannot be done by small code change.
 
 ### Snippet 3
 
